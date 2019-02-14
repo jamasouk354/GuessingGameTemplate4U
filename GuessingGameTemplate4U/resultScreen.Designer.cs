@@ -59,22 +59,22 @@
             // origOrder
             // 
             this.origOrder.AutoSize = true;
-            this.origOrder.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.origOrder.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.origOrder.ForeColor = System.Drawing.Color.White;
             this.origOrder.Location = new System.Drawing.Point(21, 156);
             this.origOrder.Name = "origOrder";
-            this.origOrder.Size = new System.Drawing.Size(118, 21);
+            this.origOrder.Size = new System.Drawing.Size(100, 17);
             this.origOrder.TabIndex = 8;
             this.origOrder.Text = "Original Order: \r\n";
             // 
             // sortOrder
             // 
             this.sortOrder.AutoSize = true;
-            this.sortOrder.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sortOrder.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sortOrder.ForeColor = System.Drawing.Color.White;
             this.sortOrder.Location = new System.Drawing.Point(21, 216);
             this.sortOrder.Name = "sortOrder";
-            this.sortOrder.Size = new System.Drawing.Size(108, 21);
+            this.sortOrder.Size = new System.Drawing.Size(93, 17);
             this.sortOrder.TabIndex = 9;
             this.sortOrder.Text = "Sorted Order: \r\n";
             // 

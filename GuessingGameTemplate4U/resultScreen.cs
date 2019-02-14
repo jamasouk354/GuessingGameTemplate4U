@@ -19,16 +19,17 @@ namespace GuessingGameTemplate4U
 
         private void resultScreen_Load(object sender, EventArgs e)
         {
+            guessTakenLabel.Text += Form1.numList.Count;
+
             for (int i = 0; i < Form1.numList.Count; i++)
             {
-                guessTakenLabel.Text += Form1.numList.Count;
                 origOrder.Text += Form1.numList[i] + " ";                             
             }
             for (int i = 0; i < Form1.numList.Count; i++)
             {
                 Form1.numList.Sort();
                 sortOrder.Text += Form1.numList[i] + " ";
-            }            
+            }
         }
     }
 }
